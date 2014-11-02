@@ -1,0 +1,22 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#                  SD Text editor                      #
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Install and setup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* You will need to install 'libqt4-dev':
+	- "sudo apt-get install libqt4-dev"
+
+* Extract the archive and run "qmake" in the archive root
+(that's where Conf.pro is located)
+
+* Go into the 'backend_src' folder and run make
+(this will create "lib-backend.so" which is needed in order
+to compile the frontend)
+
+* Go back to the archive root and run make. This should
+create the "sd_editor" binary.
+
+* ./sd_editor and enjoy!
+
+Matei & Matei
